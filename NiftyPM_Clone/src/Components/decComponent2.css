@@ -1,0 +1,53 @@
+.dec2-container{
+
+  width: 1100px;
+  height: 650px;
+  margin: auto;
+  background-color: rgb(232, 238, 238);
+  padding: 20px;
+ 
+}
+.dec2-links>ul{
+  display: flex;
+  width: 88%;
+   margin-right: 150px;
+  justify-content: space-evenly;
+  font-size: 23px;
+  
+}
+.dec2-links>ul>li:hover{
+border-bottom: 3px solid teal;
+
+}
+.dec2-content{
+  display: flex;
+  font-size: 19px;
+  justify-content: space-between;
+
+}
+.dec2-content-left{
+ margin-top: 60px;
+  width: 40%;
+margin-right: 20px;
+  
+
+}
+.dec2-content-left>h1{
+  text-align: left;
+  font-size: 35px;
+
+}
+.dec2-content-left>div>p{
+  text-align: left;
+  font-size: 22px;
+}
+.dec2-lists>li{
+  text-align: left;
+  width: 450px;
+  margin-left: 5px;
+  
+}
+.dec2-content-right>img{
+  margin-right: -20px;
+  width: 95%;
+}

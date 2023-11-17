@@ -1,0 +1,110 @@
+.forget-password>div>img{
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.forget-password>div>h1{
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+.forget-password>div>p{
+  word-spacing: 1px;
+  letter-spacing:0.4px;
+  font-size: 17px;
+  
+}
+.two-method-for-sign{
+  width: 470px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top:50px;
+
+}
+.method-left-side{
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 220px;
+  height: 35px;
+  align-items: center;
+}
+.method-left-side>img{
+  width: 20px;
+
+  display: inline-block;
+}
+.method-left-side>p{
+  display: inline-block;
+   margin-left: 8px;
+}
+
+.method-right-side{
+  display: flex;
+  width: 220px;
+  height: 35px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  align-items: center;
+}
+
+.method-right-side>img{
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+.method-left-side>:hover{
+cursor: pointer;
+color: #00b8a9 ;
+}
+.method-right-side>:hover{
+  cursor: pointer;
+  color: #00b8a9 ;
+  }
+
+.forget-login-option{
+  font-weight:20;
+}
+
+.email-for-forget{
+ width: 600px;
+ margin: auto;
+ margin-top: 10px;
+ 
+ 
+}
+
+.email-for-forget>input{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border: 1px solid #00b8a9;
+  text-align: left;
+  padding-left: 20px;
+  border-radius: 4px;
+
+}
+.email-for-forget>input:focus{
+  border: none;
+  outline: none;
+  border: 1px solid #00b8a9;
+}
+.email-for-forget>button{
+  margin-bottom: 10px;
+  width: 100px;
+  height: 35px;
+  border: none;
+   color: white;
+   background-color: #00b8a9 ;
+   border-radius: 6px;
+   font-size: 16px;
+}
+.email-for-forget>p{
+  margin-top: -1px;
+  margin-right:140px;
+}
+.forget-logos{
+  
+  display: flex;
+  width: 670px;
+  margin: auto;
+     justify-content: space-evenly;
+}

@@ -1,0 +1,142 @@
+.nifty-login-container{
+  margin-bottom: 100px;
+}
+.nifty-login-container-top{
+   margin: auto;
+  border: 1px solid #00b8a9;
+  border-radius:16px;
+  background-color: white;
+  width: 640px;
+  height: 465px;
+
+}
+
+.nifty-login-container-top>img{
+  width: 60px;
+  margin-top: 50px;
+
+}
+.nifty-login-container-top>h1{
+  font-size: 35px;
+  word-spacing: 4px;
+  letter-spacing: 1.5px;
+
+}
+.nifty-login-container-top>p{
+  width: 420px;
+  margin: auto;
+  margin-bottom:18px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.nifty-login-input-container{
+  width: 500px;
+  margin: auto;
+  height: 46px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 12px -2px;
+  margin-bottom: 20px;
+}
+.nifty-login-input-container:focus-within{
+  border: 2px solid #00b8a9;
+}
+.nifty-login-input-container>input:focus{
+  border: none;
+  outline: none;
+}
+.nifty-login-input-container>input{
+  width: 270px;
+  height: 35px;
+  border: none;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.nifty-login-input-container>button{
+  width: 138px;
+  height: 33px;
+  border: none;
+  background-color: #00b8a9;
+  font-size: 16px;
+  border-radius: 10px;
+  color: white;
+    margin-right: 5px;
+
+}
+.hcb:hover{
+  color: #00b8a9;
+}
+.hcb:hover{
+  cursor: pointer;
+}
+
+.nifty-login-container-bottom{
+ margin-top: 15px;
+}
+.nifty-login-container-bottom>img{
+  width: 66px;
+  margin-left: 12px;
+}
+
+
+
+.footer{
+ 
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  /* background-color: rgb(245, 245, 250); */
+
+  font-weight:540;
+}
+.links-list{
+ 
+  width: 180px;
+}
+li{
+
+  margin-bottom: 20px;
+}
+.links-list > ul > li:first-child{
+  color:#00b8a9;
+  font-weight:700;
+}
+.footer>div:nth-child(6){
+  width: 230px;
+  margin-right: 20px;
+}
+li:hover{
+  color: #00b8a9;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  }
+
+  .links-list {
+    width: 100%; /* Make the links list take full width */
+  }
+
+  .footer > div:nth-child(6) {
+    width: 100%; /* Make the sixth column take full width */
+    margin-right: 0; /* Remove the right margin */
+  }
+}
+
+/* Media query for screens up to 768px */
+@media (max-width: 768px) {
+  .footer {
+    grid-template-columns: 1fr; /* Single column layout */
+    
+     }
+
+  
+   
+   
+  .footer > div:nth-child(6) {
+    width: 100%; /* Make the sixth column take full width */
+    margin-right: 0; /* Remove the right margin */
+  }
+}

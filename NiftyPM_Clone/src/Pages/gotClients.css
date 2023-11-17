@@ -1,0 +1,82 @@
+.client-container{
+  margin-top:40px;
+  background-color: rgb(242, 244, 241);
+  height: 500px;
+}
+
+.client-container>button{
+  border: none;
+  margin-top: 60px;
+  height: 25px;
+  border-radius: 12px;
+  color: white;
+  background-color: #ff735f;
+
+
+}
+.client-container>h1{ 
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+
+}
+.client-container>p{
+  font-size: 19px;
+
+}
+.client-dec{
+  margin-top:250px;
+}
+
+.client-second-container{
+
+}
+.client-second-content-first{
+  display: flex;
+  width: 880px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.client-second-content-first-left{
+  width: 350px;
+}
+.client-second-content-first-left>h2{
+  font-size: 40px;
+  text-align: left;
+}
+.client-second-content-first-left>p{
+ 
+   text-align: left;
+   font-size: 23px;
+}
+
+.client-second-content-first-right>img{
+  width: 450px;
+}
+
+
+.client-second-content-third{
+  display: flex;
+  width: 880px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.client-second-content-third-left{
+  width: 350px;
+}
+.client-second-content-third-left>h2{
+  font-size: 40px;
+  text-align: left;
+}
+.client-second-content-third-left>p{
+ 
+   text-align: left;
+   font-size: 23px;
+}
+
+.client-second-content-third-right>img{
+  width: 200px;
+}
+
+

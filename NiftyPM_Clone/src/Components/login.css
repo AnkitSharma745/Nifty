@@ -1,0 +1,108 @@
+
+.logo1{
+
+  width: 100px;
+  margin-left: 45%;
+  margin-right: 52%;
+  margin-top: 20px;
+  margin-bottom: -15px;
+
+}
+
+.login-page-left-right{
+width: 952px;
+height: 480;
+margin: auto;
+display: flex;
+margin-top: 40px;
+}
+.login-page-left-container{
+ width: 470px;
+background-color: rgb(254, 249, 245);
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.login-page-left-content{
+  width: 400px;
+  margin: auto;
+}
+.login-page-left-content>button{
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: #f98a3f;
+  margin-right: 60px;
+  margin-bottom: -10px;
+}
+.login-page-left-content>img{
+  width: 400px;
+}
+
+
+.login-page-right-container{
+ width: 500px;
+ height: 500px;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ border-right-style: none;
+ 
+}
+.login-page-right-content{
+  width: 395px;
+  height: 487px;
+  margin: auto;
+
+}
+.login-page-right-content>h2{
+ margin-left: -122px;
+ margin-bottom: 20px;
+
+}
+.login-page-email-div>label{
+  margin-right:250px;
+}
+
+.login-page-email-div>input{
+  width: 350px;
+  height: 28px;
+  padding:5px;
+  border: none;
+  margin-bottom: 13px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  margin-top: 7px;
+  text-align: left;
+  padding-left: 15px;
+}
+.login-page-pass-div>input{
+  width: 350px;
+  height: 28px;
+  padding:5px;
+  border: none;
+  margin-bottom: 13px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  margin-top: 7px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.submit{
+  width: 356px;
+  border: none;
+  height: 30px;
+  background-color: #00b8a9;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: white;
+  border-radius: 9px;
+
+}
+.sign-method{
+  margin-right: 10px;
+  text-align: center;
+}
+.sign-method>p{
+  margin-bottom: -2px;
+}
+.sign-method>p:hover{
+ cursor: pointer;
+}
